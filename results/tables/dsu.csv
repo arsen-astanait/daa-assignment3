@@ -1,0 +1,33 @@
+workload,n,variant,find_calls,parent_steps,avg_ms
+chain unions + n finds,1000,none,2998,499500,1.4534
+chain unions + n finds,1000,path compression,2998,1997,0.0182
+chain unions + n finds,1000,union by rank,2998,1997,0.0083
+chain unions + n finds,1000,both,2998,1997,0.0131
+chain unions + n finds,5000,none,14998,12497500,28.7613
+chain unions + n finds,5000,path compression,14998,9997,0.0515
+chain unions + n finds,5000,union by rank,14998,9997,0.0407
+chain unions + n finds,5000,both,14998,9997,0.0436
+chain unions + n finds,20000,none,59998,199990000,465.3163
+chain unions + n finds,20000,path compression,59998,39997,0.2162
+chain unions + n finds,20000,union by rank,59998,39997,0.1526
+chain unions + n finds,20000,both,59998,39997,0.1563
+random unions + finds,10000,none,30000,3400942,9.3263
+random unions + finds,10000,path compression,30000,43459,0.7704
+random unions + finds,10000,union by rank,30000,27437,0.5555
+random unions + finds,10000,both,30000,19304,0.5252
+random unions + finds,50000,none,150000,82915046,430.2282
+random unions + finds,50000,path compression,150000,245809,3.9817
+random unions + finds,50000,union by rank,150000,139753,4.2413
+random unions + finds,50000,both,150000,96752,3.0248
+random unions + finds,100000,none,300000,332163830,2308.8321
+random unions + finds,100000,path compression,300000,513146,8.9373
+random unions + finds,100000,union by rank,300000,284254,10.6489
+random unions + finds,100000,both,300000,193937,7.7235
+Kruskal (V=1000, E=5000),1000,none,7062,611842,2.3335
+Kruskal (V=1000, E=5000),1000,path compression,7062,13001,0.6983
+Kruskal (V=1000, E=5000),1000,union by rank,7062,11682,0.7730
+Kruskal (V=1000, E=5000),1000,both,7062,6508,0.6740
+Kruskal (V=10000, E=50000),10000,none,97984,87465669,249.8588
+Kruskal (V=10000, E=50000),10000,path compression,97984,204145,16.9909
+Kruskal (V=10000, E=50000),10000,union by rank,97984,180568,16.2558
+Kruskal (V=10000, E=50000),10000,both,97984,93357,12.7401
